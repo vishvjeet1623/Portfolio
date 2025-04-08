@@ -1006,6 +1006,28 @@ label {
     .profile-image-container {
         margin-right: 0;
     }
+
+    .about-content {
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+        text-align: center;
+        margin: 2rem 0;
+    }
+
+    .about-image {
+        margin-right: 0;
+        margin-bottom: 1rem;
+    }
+
+    .about-text {
+        padding: 0 1rem;
+    }
+
+    .profile-image {
+        width: 200px;
+        height: 200px;
+    }
 }
 
 @media (max-width: 480px) {
@@ -1042,6 +1064,25 @@ label {
 
     .cert-logo {
         height: 80px;
+    }
+
+    .about-content {
+        gap: 1.5rem;
+        margin: 1.5rem 0;
+    }
+
+    .profile-image {
+        width: 180px;
+        height: 180px;
+    }
+
+    .about-text h2 {
+        font-size: 1.8rem;
+    }
+
+    .about-text p {
+        font-size: 1rem;
+        line-height: 1.5;
     }
 }
 
